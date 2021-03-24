@@ -55,9 +55,12 @@ nav a {
 
 main {
     position: relative;
+    top: 62px;
 }
 
 /******** Section Styles ***********/
+
+/* MISSION */
 
 #mission {
     background-image: url('/resources/images/img-mission-background.jpg');
@@ -70,6 +73,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .banner {
@@ -85,6 +89,9 @@ main {
     margin-bottom: 15px;
 }
 
+
+/* MENU */
+
 #featured-tea {
     width: 1000px;
     margin: 0 auto;
@@ -95,14 +102,16 @@ main {
 .menu {
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .menu-item {
     width: 300px;
     height: 200px;
-    margin-bottom: 100px;
     text-align: center;
+    margin-right: 30px;
+    margin-left: 0;
+    margin-bottom: 100px;
 }
 
 .menu-item img {
@@ -114,4 +123,60 @@ main {
     margin-top: 10px;
 }
 
+/* LOCATION */
+
+#location {
+    background-image: url('/resources/images/img-locations-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 0;
+}
+
+#address {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.address-2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* CONTACT */
+
+#contact {
+    height: 190px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: seashell;
+}
+
+#contact h2 {
+    margin-top: 10px;
+}
+
 /******** Footer Styles ***********/
+
+footer {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
